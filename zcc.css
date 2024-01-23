@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.converter {
+   
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #D6D46D;
+}
+
+h1 {
+    color: #D6D46D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+}
+
+h2 {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+label {
+    margin: 10px 0 5px 0;
+    display: block;
+}
+
+input,
+select,
+button {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #07bba9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(19, 19, 75);
+}
+
+#result {
+    font-weight: bold;
+    margin:top 15px;
+    text-align: left;
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    overflow: hidden; 
+}
+
+body {
+    background-image: url("slavozi.jpeg");
+    
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: "Sofia", sans-serif;
+
+}
+label{
+    font-size: larger;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zven's currency converter</title>
+    <link rel="stylesheet" href="zcc.css">
+</head>
+<body>
+    <h2></h2>
+    <div class="converter">
+       
+        <h1>Zven's Currency Converter</h1>
+        
+        <label>Amount:
+            <input id="amount" type="number" placeholder="Enter amount">
+        </label> 
+        
+        <label>From Currency:
+            <select id="fromCurrency">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>TND</option>
+                <option>CNY</option>
+                <option>JPY</option>
+            </select>
+        </label>
+        
+        <label>To Currency:
+            <select id="toCurrency">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>GBP</option>
+                <option>CNY</option>
+                <option>JPY</option>
+            </select>
+        </label>
+        <h1 id="result">Result</h1>
+        <button id="convertBtn" onclick="convert()">Convert</button>
+
+        
+
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="zcc.js"></script>
+</body> 
+</html>   
